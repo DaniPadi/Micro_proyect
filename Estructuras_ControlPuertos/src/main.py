@@ -12,8 +12,8 @@ system_configuration = {
     'tiempo_ciclo': 1500,
     'dispositivos': {
         'led_rojo': { 'pin': 2, 'estado': False},
-        'led_verde': { 'pin': 4, 'estado': False},
-        'buzzer': { 'pin': 5, 'estado': False}
+        'led_verde': { 'pin': 5, 'estado': False},
+        'buzzer': { 'pin': 13, 'estado': False}
     },
     'sensores': {
         'temperatura': {'pin': 15, 'calibracion': 0.0},
